@@ -26,18 +26,28 @@ main{
     display: inline-flex;
 }
 
-article#advi{
-    display: flexbox;
+article{
+    display: inline-flex;
+}
+
+#adiv{
+    display: flex; flex-wrap: wrap;
 }
 
 .eu{
     border-radius: 45%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 4px;
     width: 340px;
     height: 340px;
 }
 
 .apresentacao{
-
-    width: 400px;
+    flex: 1 1 150px;
+    max-width: 1080px;
+    margin: auto;
+    margin-right: 5px;
+    padding: 40px;
     background-color: var(--cor2);
 }
