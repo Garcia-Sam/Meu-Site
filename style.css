@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #0071A1;
+    --cor1: #FFFFFF;
+    --cor2: #D2D7DF;
+    --cor3: #080708f6;
+    --cor4: #BDBBB0;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor4);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.247);
+    padding: 30px;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+main{
+    display: inline-flex;
+}
+
+article#advi{
+    display: flexbox;
+}
+
+.eu{
+    border-radius: 45%;
+    width: 340px;
+    height: 340px;
+}
+
+.apresentacao{
+
+    width: 400px;
+    background-color: var(--cor2);
+}
