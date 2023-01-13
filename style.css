@@ -27,20 +27,21 @@ main{
 }
 
 article{
-    display: inline-flex;
+
 }
 
-#adiv{
-    display: flex; flex-wrap: wrap;
+
+.container{
+    display: flex;
 }
 
 .eu{
-    border-radius: 45%;
+    border-radius: 35%;
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 4px;
-    width: 340px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
 }
 
 .apresentacao{
