@@ -12,11 +12,11 @@
 *{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
-    margin: 3px;
+    margin: 1px;
 }
 
 body{
-    display: flex;
+
 }
 
 header{
@@ -31,6 +31,14 @@ main{
     border: 2px solid green;
 }
 
+article {
+    
+}
+
+p{
+    
+}
+
 aside{
     border: 2px solid rgb(124, 124, 5);
 }
@@ -38,6 +46,7 @@ aside{
 footer{
     border: 2px solid violet;
 }
+
 .eu{
     border-radius: 15%;
     width: 250px;
