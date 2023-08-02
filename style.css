@@ -11,23 +11,31 @@
 
 *{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin: 0;
-    margin: 1px;
+    margin: 0.5px;
 }
 
 body{
-
+   
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    margin: auto;
     border: 2px solid black;
 }
 
 nav{
+    display: flex;
+    flex-direction: column;
     border: 2px solid blue;
 }
 
 main{
+    margin-left: 124px;
     border: 2px solid green;
 }
 
@@ -40,11 +48,20 @@ p{
 }
 
 aside{
+    margin-left: 124px;
     border: 2px solid rgb(124, 124, 5);
 }
 
 footer{
+    margin-left: 124px;
     border: 2px solid violet;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
 }
 
 .eu{
