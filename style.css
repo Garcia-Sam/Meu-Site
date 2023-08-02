@@ -31,7 +31,14 @@ header{
 nav{
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    border: 2px solid black;
+}
+
+nav > span{
+    align-self: flex-start;
+    height: 20px;
+    margin: 5px;
+    border: 2px dotted blueviolet;
 }
 
 main{
@@ -40,11 +47,12 @@ main{
 }
 
 article {
-    
+    border: 1px solid black;
 }
 
-p{
-    
+main p{
+    margin: 10px;
+    border: 1px solid black;
 }
 
 aside{
