@@ -43,7 +43,7 @@ nav > span{
 
 main{
     margin-left: 124px;
-    border: 2px solid green;
+    border: 2px dotted green;
 }
 
 article {
@@ -51,8 +51,16 @@ article {
 }
 
 main p{
-    margin: 10px;
+    text-indent: 3px;
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;
     border: 1px solid black;
+}
+
+h1{
+    margin: 5px;
+    padding: 5px;
 }
 
 aside{
@@ -73,9 +81,11 @@ div{
 }
 
 .eu{
+    margin: 10px;
+    border: 1px solid black;
     border-radius: 15%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .redes{
