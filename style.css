@@ -25,7 +25,8 @@ header{
     top: 0;
     left: 0;
     bottom: 0;
-    width: 120px;
+    min-width: 120px;
+    max-width: 400px;
     margin: auto;
     border: 2px solid black;
 }
@@ -81,6 +82,10 @@ h2{
 ul img{
     width: 40px;
     height: 40px;
+}
+
+a > img:hover{
+    filter: blur(4px);
 }
 
 footer{
