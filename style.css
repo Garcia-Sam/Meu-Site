@@ -8,8 +8,7 @@
     --cor3: #080708f6;
     --cor4: #BDBBB0;
     --corlinkedin: #0a66c2;
-    --corgithub: 
-    --corintagram: 
+    --corgithub: #1715156c;
 }
 
 *{
@@ -103,6 +102,20 @@ div{
     border-radius: 15%;
     width: 200px;
     height: 200px;
+}
+
+#linkedin-icon:hover{
+    background-color: var(--corlinkedin);
+}
+
+#git-icon:hover{
+    background-color: var(--corgithub);
+}
+
+#instagram-icon:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%,
+    #d6249f 60%, #285aeb 90%);
 }
 
 .imgprojetos{
