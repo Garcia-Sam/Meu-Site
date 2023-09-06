@@ -17,40 +17,31 @@
 }
 
 body{
-   background-color: var(--cor2);
+    background-color: var(--cor2);
 }
 
 header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    min-width: 120px;
-    max-width: 400px;
     margin: auto;
     border: 2px solid black;
 }
 
 nav{
-    display: flex;
-    flex-direction: column;
+    padding: 9px;
     border: 2px solid black;
 }
 
 nav > span{
-    align-self: flex-start;
     height: 20px;
     margin: 5px;
     border: 2px dotted blueviolet;
 }
 
-main{
-    margin-left: 124px;
-    border: 2px dotted green;
-}
 
-article {
-    border: 1px solid black;
+main{
+    height: auto;
+    width: 90vw;
+    margin: auto;
+    border: 2px dotted green;
 }
 
 main p{
@@ -61,15 +52,25 @@ main p{
     border: 1px solid black;
 }
 
+article {
+    border: 1px solid black;
+}
+
+aside{
+    height: auto;
+    width: 90vw;
+    margin: auto;
+    border: 2px solid rgb(124, 124, 5);
+}
+
+aside ul{
+    text-align: center;
+}
+
 h1{
     margin: 5px;
     margin-left: 35px;
     padding: 5px;
-}
-
-aside{
-    margin-left: 124px;
-    border: 2px solid rgb(124, 124, 5);
 }
 
 h2{
@@ -78,26 +79,24 @@ h2{
     padding: 5px;
 }
 
-
 ul img{
     width: 40px;
     height: 40px;
+    margin: auto;
 }
 
 a > img:hover{
-    filter: blur(4px);
+    filter: blur(1px);
 }
 
+
 footer{
-    margin-left: 124px;
+    margin: auto;
     border: 2px solid violet;
 }
 
-div{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: auto;
+footer p{
+    text-align: center;
 }
 
 .eu{
@@ -107,6 +106,17 @@ div{
     border-radius: 15%;
     width: 200px;
     height: 200px;
+}
+
+.imgprojetos{
+    margin: 5px;
+    width: 450px;
+    height: 150px;
+    margin: auto;
+}
+
+.redes{
+    padding: 10px;
 }
 
 #linkedin-icon:hover{
@@ -121,14 +131,4 @@ div{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%,
     #fdf497 5%, #fd5949 45%,
     #d6249f 60%, #285aeb 90%);
-}
-
-.imgprojetos{
-    margin: 5px;
-    width: 450px;
-    height: 150px;
-}
-
-.redes{
-    padding: 10px;
 }
