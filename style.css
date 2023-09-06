@@ -16,26 +16,51 @@
     margin: 0.5px;
 }
 
+h1{
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+h2{
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+p{
+    font-size: 1.2em;
+}
+
 body{
     background-color: var(--cor2);
 }
 
 header{
+    height: 100px;
     margin: auto;
     border: 2px solid black;
 }
 
 nav{
-    padding: 9px;
+    position: sticky;
+    top: 0;
+    font-size: 1.01em;
+    padding: 10px;
     border: 2px solid black;
 }
 
 nav > span{
-    height: 20px;
+    padding: 3px;
     margin: 5px;
-    border: 2px dotted blueviolet;
+    border: 1px dotted blueviolet;
 }
 
+nav a:hover{
+    background-color: var(--corlinkedin);
+}
 
 main{
     height: auto;
@@ -47,8 +72,7 @@ main{
 main p{
     text-indent: 3px;
     text-align: justify;
-    margin: 5px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
 }
 
@@ -65,18 +89,6 @@ aside{
 
 aside ul{
     text-align: center;
-}
-
-h1{
-    margin: 5px;
-    margin-left: 35px;
-    padding: 5px;
-}
-
-h2{
-    margin: 5px;
-    margin-left: 35px;
-    padding: 5px;
 }
 
 ul img{
@@ -104,12 +116,13 @@ footer p{
     margin-left: 80px;
     border: 1px solid black;
     border-radius: 15%;
-    width: 200px;
-    height: 200px;
+    width: 299px;
+    height: 300px;
 }
 
 .imgprojetos{
     margin: 5px;
+    padding: 10px;
     width: 450px;
     height: 150px;
     margin: auto;
@@ -121,14 +134,17 @@ footer p{
 
 #linkedin-icon:hover{
     background-color: var(--corlinkedin);
+    border-radius: 50%;
 }
 
 #git-icon:hover{
     background-color: var(--corgithub);
+    border-radius: 50%;
 }
 
 #instagram-icon:hover{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%,
     #fdf497 5%, #fd5949 45%,
     #d6249f 60%, #285aeb 90%);
+    border-radius: 50%;
 }
