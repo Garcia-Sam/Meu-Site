@@ -6,6 +6,7 @@ function adicionarConteudoEImagem(conteudo, imagemSrc) {
     divTrabalhos.appendChild(novoParagrafo);
 
     var novaImagem = document.createElement("img");
+    novaImagem.classList.add('imgprojetos')
     novaImagem.setAttribute('src', imagemSrc);
     divTrabalhos.appendChild(novaImagem);
 }
@@ -14,4 +15,4 @@ adicionarConteudoEImagem("Projeto Fokus. Este projeto é inspirado na técnica P
 
 adicionarConteudoEImagem('O Alura Midi é um instrumento musical de interface digital, onde a cada botão vamos reproduzir o som de um instrumento o Pom, o Tim e o Splash.', '/imgs/Projeto-Cordel.png')
 
-adicionarConteudoEImagem('Aparecida Nutrição. Este projeto surgiu na premissa A nutricionista Aparecida fazia controle dos clientes com fichas cadastrais, preenchidas manualmente. Com a criação do site, ela conseguirá armazenar as informações, a serem exibidas em uma tabela, em que novos cadastros serão adicionados dinamicamente por meio do JavaScript, e poderão ser filtrados posteriormente. Ela também não precisará mais fazer cálculos manualmente. Todos serão realizados utilizando-se o JavaScript.)', '/imgs/Projeto-Cordel.png')
+adicionarConteudoEImagem('Aparecida Nutrição. Este projeto surgiu na premissa A nutricionista Aparecida fazia controle dos clientes com fichas cadastrais, preenchidas manualmente. Com a criação do site, ela conseguirá armazenar as informações, a serem exibidas em uma tabela, em que novos cadastros serão adicionados dinamicamente por meio do JavaScript, e poderão ser filtrados posteriormente. Ela também não precisará mais fazer cálculos manualmente. Todos serão realizados utilizando-se o JavaScript.', '/imgs/Projeto-Cordel.png')
