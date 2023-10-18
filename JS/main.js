@@ -1,9 +1,17 @@
-const   conteudo =  document.querySelector("#trabalhos")
-const   paragrafo   =   document.createElement('p')
-const   imagem  =   document.createElement('img')
+function adicionarConteudoEImagem(conteudo, imagemSrc) {
+    var divTrabalhos = document.getElementById('trabalhos');
+    
+    var novoParagrafo = document.createElement('p');
+    novoParagrafo.textContent = conteudo;
+    divTrabalhos.appendChild(novoParagrafo);
 
-conteudo.appendChild(paragrafo)
-paragrafo.textContent = 'lorem'
+    var novaImagem = document.createElement("img");
+    novaImagem.setAttribute('src', imagemSrc);
+    divTrabalhos.appendChild(novaImagem);
+}
 
-conteudo.appendChild(imagem)
-imagem.setAttribute ('src', './imgs/Projeto-Android.png')
+adicionarConteudoEImagem("Projeto Fokus. Este projeto é inspirado na técnica Pomodoro, que visa a concentração em tarefas importantes. Dessa forma, concentramo-nos em uma atividade por 25 minutos, por exemplo, e após esse período, é possível pausar por 5 minutos ou optar por uma pausa mais longa de 15 minutos.", '/imgs/Projeto-Cordel.png')
+
+adicionarConteudoEImagem('O Alura Midi é um instrumento musical de interface digital, onde a cada botão vamos reproduzir o som de um instrumento o Pom, o Tim e o Splash.', '/imgs/Projeto-Cordel.png')
+
+adicionarConteudoEImagem('Aparecida Nutrição. Este projeto surgiu na premissa A nutricionista Aparecida fazia controle dos clientes com fichas cadastrais, preenchidas manualmente. Com a criação do site, ela conseguirá armazenar as informações, a serem exibidas em uma tabela, em que novos cadastros serão adicionados dinamicamente por meio do JavaScript, e poderão ser filtrados posteriormente. Ela também não precisará mais fazer cálculos manualmente. Todos serão realizados utilizando-se o JavaScript.)', '/imgs/Projeto-Cordel.png')
