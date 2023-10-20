@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
-    --cor0: #0071A1;
-    --cor1: #FFFFFF;
-    --cor2: #D2D7DF;
-    --cor3: #080708f6;
+    --cor0: #12486B;
+    --cor1: #419197;
+    --cor2: #78D6C6;
+    --cor3: #F5FCCD;
     --cor4: #BDBBB0;
     --corlinkedin: #0a66c2;
     --corgithub: #1715156c;
@@ -34,23 +34,23 @@ p{
 }
 
 body{
-    background-color: var(--cor0);
+    background: white;
 }
 
 header{
-    height: 100px;
     margin: auto;
-    background-color: var(--cor2);
+    height: 100px;
+    background-color: var(--cor0);
     /* border: 2px solid black; */
 }
 
 nav{
-    position: sticky;
     top: 0;
-    font-size: 1.01em;
     padding: 10px;
-    border: 1px solid black;
-    background-color: var(--cor2);
+    position: sticky;
+    font-size: 1.01em;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.082);
 }
 
 nav > span{
@@ -65,22 +65,21 @@ nav a:hover{
 
 main{
     height: auto;
-    width: 90vw;
     margin: auto;
-    background-color: white;
+    background: rgb(120,214,198);
+    background: linear-gradient(150deg, rgba(120,214,198,1) 29%, rgba(65,145,151,1) 51%);
     /* border: 2px dotted green; */
 }
 
 article {
-    border: 1px solid black;
+    border: 1px solid rgb(230, 6, 6);
+    border-top: 0px;
 }
 
 aside{
     height: auto;
-    width: 90vw;
     margin: auto;
     border: 1px solid black;
-    background-color: var(--cor);
 }
 
 aside ul{
@@ -108,23 +107,25 @@ footer p{
 }
 
 .eu{
-    width: 299px;
+    margin: auto;
+    width: 300px;
     height: 300px;
-    margin: 10px;
-    margin-left: 80px;
-    border-radius: 15%;
-    border: 1px solid black;
+    display: flex;
+    border-radius: 10%;
+    justify-content: center;
 }
 
 .h1Main{
     width: 78vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
 }
 
 .imgprojetos{
-    margin-left: 100px;
-    padding: 10px;
-    width: 550px;
-    height: 150px;
+    display: flex;
+    min-width: 35vw;
+    max-height: 18vh;
+    margin: auto;
+    padding: 15px;
 }
 
 .redes{
@@ -132,14 +133,15 @@ footer p{
 }
 
 .paragrafosPrincipais{
-    padding: 15px;
-    text-indent: 3px;
     width: 75vw;
     margin: auto;
+    padding: 15px;
+    text-indent: 3px;
     text-align: justify;
-    background-color: var(--cor1);
-    border: 1px solid rgba(0, 0, 0, 0.438);
+    background-color: white;
     border-radius: 10px 2px 10px 3px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
     box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.082);
 }
 
