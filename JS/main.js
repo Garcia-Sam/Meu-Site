@@ -2,12 +2,12 @@ function adicionarConteudoEImagem(conteudo, imagemSrc) {
     var divTrabalhos = document.getElementById('trabalhos');
     
     var novoParagrafo = document.createElement('p');
-    novoParagrafo.classList.add('paragrafosPrincipais')
+    novoParagrafo.classList.add('paragrafos__principais')
     novoParagrafo.textContent = conteudo;
     divTrabalhos.appendChild(novoParagrafo);
 
     var novaImagem = document.createElement("img");
-    novaImagem.classList.add('imgprojetos')
+    novaImagem.classList.add('img__projetos')
     novaImagem.setAttribute('src', imagemSrc);
     divTrabalhos.appendChild(novaImagem);
 }

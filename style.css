@@ -106,7 +106,7 @@ footer p{
     text-align: center;
 }
 
-.eu{
+.minha__foto{
     width: 300px;
     margin: auto;
     height: 300px;
@@ -115,12 +115,12 @@ footer p{
     justify-content: center;
 }
 
-.h1Main{
+.h1__main{
     width: 78vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
 }
 
-.imgprojetos{
+.img__projetos{
     margin: auto;
     padding: 15px;
     display: flex;
@@ -132,7 +132,7 @@ footer p{
     padding: 10px;
 }
 
-.paragrafosPrincipais{
+.paragrafos__principais{
     width: 75vw;
     margin: auto;
     padding: 15px;
