@@ -11,148 +11,58 @@
     --corgithub: #1715156c;
 }
 
-*{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-h1{
-    margin: auto;
-    padding: 15px;
-    font-weight: bold;
-}
-
-h2{
-    margin: 5px;
-    padding: 5px;
-    margin-left: 35px;
-    font-weight: bold;
-}
-
-p{
-    font-size: 1.2em;
-}
-
-body{
-    background: white;
-    box-sizing: border-box;
-}
-
-header{
-    margin: auto;
-    height: 100px;
-    background-color: var(--cor0);
-    /* border: 2px solid black; */
-}
-
-nav{
-    top: 0;
-    padding: 10px;
-    position: sticky;
-    font-size: 1.01em;
-    border-bottom: 1px solid black;
-    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.082);
-}
-
-nav > span{
-    margin: 5px;
-    padding: 3px;
-    border: 1px dotted blueviolet;
-}
-
-nav a:hover{
-    background-color: var(--corlinkedin);
-}
-
-main{
-    height: auto;
-    margin: auto;
-    background: rgb(120,214,198);
-    background: linear-gradient(150deg, rgba(120,214,198,1) 29%, rgba(65,145,151,1) 51%);
-    /* border: 2px dotted green; */
-}
-
-article {
-    border-top: 0px;
-    border: 1px solid rgb(230, 6, 6);
-}
-
-aside{
-    height: auto;
-    margin: auto;
+.cabecalho {
+    padding: 30px;
     border: 1px solid black;
 }
 
-aside ul{
-    text-align: center;
+.artigo {
+    border: 1px solid black;
 }
 
-ul img{
-    width: 40px;
-    height: 40px;
-    margin: auto;
-}
-
-a > img:hover{
-    filter: blur(1px);
-}
-
-
-footer{
-    margin: auto;
-    border: 2px solid violet;
-}
-
-footer p{
-    text-align: center;
-}
-
-.minha__foto{
-    width: 300px;
-    margin: auto;
-    height: 300px;
+.apresentacao {
     display: flex;
-    border-radius: 10%;
-    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
 }
 
-.h1__main{
-    width: 78vw;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
-}
-
-.img__projetos{
-    margin: auto;
-    padding: 15px;
-    display: flex;
-    min-width: 35vw;
-    max-height: 18vh;
-}
-
-.redes{
+.minha__foto {
+    width: 25%;
     padding: 10px;
 }
 
-.paragrafos__principais{
-    width: 75vw;
-    margin: auto;
-    padding: 15px;
-    text-indent: 3px;
-    text-align: justify;
-    background-color: white;
-    border-radius: 10px 2px 10px 3px;
-    border: 1px solid rgba(0, 0, 0, 0.438);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
-    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.082);
+.paragrafos__principais {
+    padding: 10px;
+}
+
+#trabalhos {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.img__projetos {
+    width: 20%;
+    height: 20%;
+}
+
+.img__icons {
+    width: 10%;
+    height: 10%;
 }
 
 #linkedin-icon:hover{
-    background-color: var(--corlinkedin);
     border-radius: 50%;
+    background-color: var(--corlinkedin);
 }
 
 #git-icon:hover{
-    background-color: var(--corgithub);
     border-radius: 50%;
+    background-color: var(--corgithub);
 }
 
 #instagram-icon:hover{
