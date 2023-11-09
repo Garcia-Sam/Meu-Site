@@ -46,23 +46,6 @@ main {
     border-radius: 5%;
 }
 
-.paragrafos__principais {
-    padding: 10px;
-}
-
-#trabalhos {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 1px hidden red;
-}
-
-.img__projetos {
-    width: 20%;
-    height: 20%;
-}
-
 .contato {
     padding: 20px;
     border: 1px solid purple;
