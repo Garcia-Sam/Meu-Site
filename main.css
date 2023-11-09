@@ -9,6 +9,9 @@
     --cor4: #BDBBB0;
     --corlinkedin: #0a66c2;
     --corgithub: #1715156c;
+    --corinsta: radial-gradient(circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%,
+    #d6249f 60%, #285aeb 90%);
 }
 
 * {
@@ -29,14 +32,14 @@ main {
 }
 
 .artigo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border: 1px hidden black;
 }
 
 .apresentacao {
-    display: flex;
     padding: 20px;
-    align-items: center;
-    flex-direction: column;
     border: 1px hidden red;
 }
 
@@ -52,18 +55,27 @@ main {
 }
 
 .redes {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes__links {
+    gap: 15px;
+    width: 15%;
     display: flex;
     padding: 10px;
     text-align: center;
-}
-
-.redes__span {
-    border: 1px solid;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    border: 1px solid green;
 }
 
 .img__icons {
-    width: 10%;
-    border: 1px solid red;
+    width: 20%;
 }
 
 footer {
@@ -73,17 +85,14 @@ footer {
 }
 
 #linkedin-icon:hover{
-    border-radius: 50%;
     background-color: var(--corlinkedin);
 }
 
 #git-icon:hover{
-    border-radius: 50%;
     background-color: var(--corgithub);
 }
 
 #instagram-icon:hover{
-    border-radius: 50%;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%,
     #fdf497 5%, #fd5949 45%,
     #d6249f 60%, #285aeb 90%);
