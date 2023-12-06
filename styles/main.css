@@ -18,70 +18,72 @@
     font-size: 1.3em;
 }
 
-body {
-    box-sizing: border-box;
-}
-
+/* Cabeçalho */
 .cabecalho {
-    padding: 30px;
+    gap: 1em;
+    bottom: 0%;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    position: fixed;
     border: 1px solid black;
 }
 
-main {
-    margin: auto;
+.cabecalho__links {
+    margin-right: 1em;
+}
+
+/* Artigo */
+.minha__foto {
+    width: 50%;
+    padding: .5em;
+    border-radius: 150%;
 }
 
 .artigo {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border: 1px hidden black;
+    flex-direction: column;
 }
 
-.apresentacao {
-    padding: 20px;
-    border: 1px hidden red;
+.artigo__apresentacao {
+    border: 1px solid black;
 }
 
-.minha__foto {
-    width: 20%;
-    padding: 10px;
-    border-radius: 5%;
+.artigo__titulo {
+    padding: .5em;
+    font-weight: bolder;
 }
 
+.artigo__pargrafo {
+    padding: .5em;
+    font-size: 1.5rem;
+    border: 1px solid rebeccapurple;
+}
+
+/* Contato */
 .contato {
-    padding: 20px;
-    border: 1px solid purple;
+    border: 1px solid salmon;
+}
+
+
+.contato__titulo{
+    padding: .5em;
+    font-weight: bolder;
 }
 
 .redes {
-    gap: 10px;
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.redes__links {
-    gap: 15px;
-    width: 15%;
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-    justify-content: center;
-    border: 1px solid green;
+    padding: 1em;
 }
 
 .img__icons {
-    width: 20%;
+    width: 10%;
 }
 
+/* Rodapé */
 footer {
-    padding: 30px;
-    text-align: center;
-    border: 1px solid blue;
+    padding: 1em;
 }
 
 #linkedin-icon:hover{
@@ -93,7 +95,5 @@ footer {
 }
 
 #instagram-icon:hover{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%,
-    #fdf497 5%, #fd5949 45%,
-    #d6249f 60%, #285aeb 90%);
+    background: var(--corinsta);
 }
